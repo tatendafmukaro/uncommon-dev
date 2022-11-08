@@ -1,43 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-<body>
-   
-        <nav class="navbar">
-           
-            <ul class="nav-link"> 
-                <li class="nav-item"> <a href="#" >BOOTSTRAP</a></li>       
-                <li class="nav-item"><a href="#">PORTFOLIO</a></li>
-                <li class="nav-item"><a href="#">ABOUT</a></li>
-                <li class="nav-item"><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
- 
-    <main>
-        <div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Document</title>
+   </head>
+   <body>
+      <nav class="navbar">
+         <ul class="nav-link">
+            <li class="nav-item"> <a href="#" >BOOTSTRAP</a></li>
+            <li class="nav-item"><a href="#">PORTFOLIO</a></li>
+            <li class="nav-item"><a href="#">ABOUT</a></li>
+            <li class="nav-item"><a href="#">CONTACT</a></li>
+         </ul>
+      </nav>
+      <main>
+         <div class="banner" >
+            <img  id="banner-pic" src="img/banner.png" alt="felix">
             <h1>START BOOTSTRAP</h1>
-            <img src="images/blue-star.png" alt="blue-star">
+            <img src="img/star.png" alt="blue-star">
             <p>Graphic Artist-Web Designer-Illustrator</p>
-        </div>
-        <div>
-            <h1>PORTFOLIO</h1>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </main>
-    <div></div>
-</body>
+         </div>
+         <div id="port">
+            <div class="pen">
+               <h2 class="hey">PORTFOLIO</h2>
+               <img class="hie" src="img/blue-star.png" width="20%">
+            </div>
+            <div id="tag">
+               <div class="row">
+                  <img src="img/cabin.png" width="15%"> <img src="img/cake.png" width="15%">  <img src="img/circus.png" width="15%">
+               </div>
+               <div class="rows">
+                  <img src="img/game.png" width="14.9%"> <img src="img/safe.png" width="14.9%">  <img src="img/submarine.png" width="14.9%">
+               </div>
+            </div>
+         </div>
+         </div>
+         <div class="about">
+            <h2 class="aboutus">ABOUT</h2>
+            <img class="rog" src="/img/star.png" alt="">
+            <div class="paragraph container">
+               <div id="p1">
+                  <P1>
+                  Freelancer is a free bootstrap theme<br>created by Start Bootstrap. The <br>download includes the complete source <br>files including HTML,CSS,and <br>JavaScript as well as optional SASS <br>stylesheets for easy customization.
+                  </P>
+               </div>
+               <div id="p2">
+                  <p1>
+                  You can create your own custom avatar<br> for the masthead, change the icon in the<br> dividers, and add your email address to <br>the contact for to make it fully <br>functional!
+                  </p>
+               </div>
+            </div>
+            <div class="but">
+               <button class="button">Free Download!</button>
+            </div>
+         </div>
+         <div class="contactme">
+            <div id="contact">
+               <h2>CONTACT ME</h2>
+               <img id="blu" src="/img/blue-star.png" alt="">
+            </div>
+            <div class="text1">
+               <p>Name</p>
+               <hr style="margin-top: 20px;">
+               <p>Email Address</p>
+               <hr style="margin-top: 20px;">
+               <p>Phone Number</p>
+               <hr style="margin-top: 20px;">
+               <p>Message</p>
+               <hr style="margin-top: 40px;">
+               <br>
+               <button class="send">Send</button>
+               </form>
+            </div>
+         </div>
+         <footer>
+            <div class="footer-wrapper">
+               <div class="flex-container">
+                  <div class="footer location">
+                     <h5>Location</h5>
+                     <div class="john">
+                        <p3>2215 John Daniel Drive <br> Craig,MO 65243</p3>
+                     </div>
+                  </div>
+                  <div class="footer aroundweb">
+                     <h5>AROUND THE WEB</h5>
+                     <div class="icons">
+                        <div class="face"><img src="/img/facebook.png" width="20px"> <img src="/img/twitter.png" width="20px"> <img src="/img/linkedin.png" width="20px"> <img id="favicon" src="/img/global.png" width="20px"></div>
+                     </div>
+                  </div>
+                  <div class=" footer freelancer">
+                     <h5>ABOUT FREELANCER</h5>
+                     <div class="mit">
+                        <p3>Freelancer is a free to use, MIT licenced <br>bootstrap theme created by <strong>Start<br> Bootstrap</strong></p3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="lower-footer">
+               &copy; 2022 | Tatenda F. Mukaro | Zimbabwe |  <a href="https://www.uncommon.org">Uncommon-2022</a> 
+               <br><span id = "theyear"></span> <span id ="lu"> </span>
+            </div>
+         </footer>
+      </main>
+   </body>
 </html>
