@@ -98,14 +98,14 @@
     text-align: center;
     color: white;
   }
-  #p1 {
+  #paragraph1 {
     color: white;
     float: left;
     padding-left: 375px;
     margin-top: 5px;
     font-size: 10px;
   }
-  #p2 {
+  #paragraph2 {
     color: white;
     float: right;
     padding-right: 375px;
