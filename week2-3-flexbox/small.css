@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bannercontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: url(img/bg-masthead.jpg);
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.bannercontainer div {
+  text-align: center;
+}
+
+.bannercontainer button {
+  padding: 1.23rem;
+  background-color: #1d809f;
+  border-color: #1d809f;
+  color: white;
+}
+
+.portfoliocontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+}
+
+.portfoliocontainer div {
+  text-align: center;
+}
+
+.portfoliocontainer button {
+  padding: 1.23rem;
+  background-color: #212529;
+  border-color: #212529;
+  color: white;
+}
+
+.servicescontainer {
+  background-color: #1d809f;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+/* .servicescontainer div{
+   text-align: center;
+   margin: 10px;
+   color:white;
+ 
+ } */
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 20px;
+}
+
+/* .items-container .fa{
+  border-radius: 50%;
+} */
+
+.fa {
+  border-radius: 30px;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  color: black;
+}
+
+.welcomecontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: url(img/bg-callout.jpg);
+  background-size: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.welcomecontainer div {
+  text-align: center;
+}
+
+.welcomecontainer button {
+  padding: 1.23rem;
+  background-color: #1d809f;
+  border-color: #1d809f;
+  color: white;
+}
+
+.item-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+  height: 300px;
+  overflow: hidden;
+}
+
+.portfoliocontainer2 div {
+  text-align: center;
+}
+
+.impossiblecontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #1d809f;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+}
+
+.impossiblecontainer div {
+  text-align: center;
+}
+
+.impossiblecontainer button {
+  padding: 1.23rem;
+  background-color: #212529;
+  border-color: #212529;
+  color: white;
+}
+
+.button-impossible {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-impossible div {
+  text-align: center;
+  margin: 10px;
+}
+
+.footercontainerbanner {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: url(img/map.jpeg);
+  background-size: cover;
+  height: 400px;
+  overflow: hidden;
+}
+
+.footercontainericons {
+  display: flex;
+}
+
+.p1 {
+  background: url(img/portfolio-1.jpg);
+  height: 40vh;
+  width: 40%;
+  background-position: right;
+}
+.p2 {
+  background: url(img/portfolio-2.jpg);
+  height: 40vh;
+  width: 40%;
+  font-weight: lighter;
+}
+.p3 {
+  background: url(img/portfolio-3.jpg);
+  height: 40vh;
+  width: 40%;
+}
+.p4 {
+  background: url(img/portfolio-4.jpg);
+  height: 40vh;
+  width: 40%;
+}
+
+.s5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+}
+.portfolio {
+  color: rgb(234, 117, 0);
+  font-size: 10px;
+}
+.recent {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 4px;
+  font-size: 37px;
+}
+
+.first {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+.first p {
+  align-items: flex-end;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  font-weight: lighter;
+}
+
+.second {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+.second p {
+  align-items: flex-end;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
