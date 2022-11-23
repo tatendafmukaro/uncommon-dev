@@ -1,46 +1,13 @@
 * {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
-  }
-  
-  /* .navbar {
-    width: 100%;
-    align-items: center;
-    background-color: rgb(40, 61, 81);
-    color: white;
-    padding-left: 30px;
-    padding-right: 10px;
-  }
-  .navbar a {
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-  }
-  
-  .nav-link {
-    list-style: none;
-    margin: 0;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  } */
-  
-  /* .nav-item {
-    list-style: none;
-    margin-right: 2rem;
-  }
-  
-  .nav-link :first-child {
-    margin-right: auto;
-    margin-left: 2rem;
-  } */
-  nav{
-    height: 100px;
-    width: 100%;
-    background-color:  rgb(34, 55, 74);
-    padding: 40px 80px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+nav{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(34, 55, 74);
+  padding: 40px 80px;
 }
 nav a{
   color: white;
@@ -55,217 +22,185 @@ li{
   list-style: none;
   font-weight: bold;
   font-size: 15px;
-  margin: 0 12px;  
+  margin: 0 12px;
 }
 .logo{
   font-weight: bold;
   font-size: 25px;
   letter-spacing: 0.8px;
 }
-  
-  .banner {
-    display: flex;
-    background-color: rgb(0, 196, 160);
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-  }
-  
-  .banner img {
-    width: 200px;
-  }
-  .banner h1 {
-    color: white;
-  }
-  .banner p {
-    color: white;
-  }
-  
-  #tag {
-    background-color: white;
-  }
-  
-  #port {
-    height: 900px;
-  }
-  .hey {
-    text-align: center;
-    margin-top: 80px;
-    font-size: 20px;
-  }
-  
-  .hie {
-    text-align: center;
-    margin: 10px;
-    width: 150px;
-  }
-  
-  #port {
-    height: 400px;
-    text-align: center;
-    margin-top: 10px;
-    background-color: white;
-  }
-  
-  .grid1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
-    /* padding: 20px; */
-  }
-  
-  .about {
-    background-color: rgb(0, 196, 160);
-    max-width: 100%;
-    padding: 30px;
-  }
-  
-  .aboutus {
-    text-align: center;
-    color: white;
-  }
-  #paragraph1 {
-    color: white;
-    float: left;
-    padding-left: 375px;
-    margin-top: 5px;
-    font-size: 10px;
-  }
-  #paragraph2 {
-    color: white;
-    float: right;
-    padding-right: 375px;
-    margin-top: 5px;
-    font-size: 10px;
-  }
-  .but {
-    margin-top: 100px;
-    text-align: center;
-  }
-  .button {
-    background-color: rgb(0, 197, 158);
-    border: 3px solid white;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    border-radius: 8px;
-  }
+.banner {
+  display: flex;
+  background-color: rgb(0, 196, 160);
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.banner img {
+  width: 200px;
+}
+.banner h1 {
+  color: white;
+}
+.banner p {
+  color: white;
+}
+#tag {
+  background-color: white;
+}
+#port {
+  height: 900px;
+}
+.hey {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 20px;
+}
+.hie {
+  text-align: center;
+  margin: 10px;
+  width: 150px;
+}
+#port {
+  height: 400px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+ /* padding: 20px;
+  */
+}
+.about {
+  background-color: rgb(0, 196, 160);
+  max-width: 100%;
+  padding: 30px;
+}
 
-  .contactme{
-    max-width: 600px;
-  }
-  
-  #contact {
-    text-align: center;
-    margin-top: 40px;
-    max-width: 600PX;
-  }
-  #blu {
-    height: 20px;
-    margin-top: 10px;
-  }
-  h5 {
-    color: white;
-  }
-  p {
-    color: white;
-  }
-  h6 {
-    color: white;
-    text-align: center;
-  }
-  .send {
-    background-color: rgb(0, 197, 158);
-    margin-top: 20px;
-    margin-bottom: 10px;
-    /* padding: 14px 28px; */
-    font-size: 16px;
-    border: 2px solid white;
-    border-radius: 8px;
-  }
-  
-  .icons {
-    display: inline;
-    height: 10px;
-    width: 10%;
-  }
-  .freelancer {
-    float: right;
-    margin-right: 300px;
-    padding-top: 10px;
-    text-align: center;
-  }
-  
-  .paragraph {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .footer-wrapper {
-    background-color: rgb(40, 61, 81);
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  /* .footer-flex{
-          display: flex;
-          align-items: center;
-          flex-wrap: wrap;
-      } */
-  .footer {
-    height: 100px;
-    /* flex-basis: 200px; */
-    /* flex: 1 0 200px; */
-    flex: 1 0 300px;
-    margin: 5px;
-  }
-  .location {
-    padding: 10px;
-    text-align: center;
-    /* background-color: red; */
-    /* flex-basis: 100px; */
-  }
-  .aroundweb {
-    padding: 10px;
-    text-align: center;
-    /* background-color: green; */
-    /* flex-basis: 100px; */
-  }
-  
-  .freelancer {
-    padding: 10px;
-    text-align: center;
-    /* background-color: yellow; */
-    /* flex-basis: 100px; */
-  }
-  
-  footer {
-    max-width: 100%;
-    border-radius: 5px;
-    text-align: center;
-  
-    color: white;
-    /* margin-top: 100px ; */
-    padding: 10px;
-  }
-  footer a {
-    color: white;
-  }
-  
-  #lower-footer {
-    background-color: #000e1b;
-    padding: 15px;
-  }
-  
-  /* @media screen and (min-width: 960px) {
-          body {
-            background-color: lightgreen;
-  
-          }
-        } */
-  
+/* .about  img{
+  align-items: center;
+} */
+.aboutus {
+  text-align: center;
+  color: white;
+}
+#paragraph1 {
+  color: white;
+  float: left;
+  padding-left: 375px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+#paragraph2 {
+  color: white;
+  float: right;
+  padding-right: 375px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+.but {
+  margin-top: 100px;
+  text-align: center;
+}
+.button {
+  background-color: rgb(0, 197, 158);
+  border: 3px solid white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.contactme{
+  max-width: 600px;
+  /* height: 500px; */
+}
+.contactme p{
+  color: #000e1b;
+}
+#contact {
+  text-align: center;
+  margin-top: 40px;
+  max-width: 600PX;
+  color: #000e1b;
+}
+#blu {
+  height: 20px;
+  margin-top: 10px;
+}
+h5 {
+  color: white;
+}
+p {
+  color: white;
+}
+h6 {
+  color: white;
+  text-align: center;
+}
+.send {
+  background-color: rgb(0, 197, 158);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+.icons {
+  display: inline;
+  height: 10px;
+  width: 10%;
+}
+.freelancer {
+  float: right;
+  margin-right: 300px;
+  padding-top: 10px;
+  text-align: center;
+}
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-wrapper {
+  background-color: rgb(40, 61, 81);
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer {
+  height: 100px;
+  flex: 1 0 300px;
+  margin: 5px;
+}
+.location {
+  padding: 10px;
+  text-align: center;
+}
+.aroundweb {
+  padding: 10px;
+  text-align: center;
+}
+.freelancer {
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  max-width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+footer a {
+  color: white;
+}
+#lower-footer {
+  background-color: #000e1b;
+  padding: 15px;
+}
